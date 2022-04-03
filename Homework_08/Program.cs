@@ -11,6 +11,7 @@
         {
             Console.WriteLine("Для выхода из цикла, напишите: exit");
             userMessage = Console.ReadLine();
+
             if (userMessage == "exit")
             {
                 wordOutputCheck = true;
