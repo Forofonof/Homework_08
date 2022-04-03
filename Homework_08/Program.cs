@@ -5,16 +5,16 @@
     static void Main(string[] args)
     {
         string userMessage;
-        bool wordCheckExit = true;
+        bool isWordCheckExit = true;
 
-        while (!false == wordCheckExit)
+        while (true == isWordCheckExit)
         {
             Console.WriteLine("Для выхода из цикла, напишите: exit");
             userMessage = Console.ReadLine();
 
             if (userMessage == "exit")
             {
-                wordCheckExit = !true;
+                isWordCheckExit = false;
             }
         }
     }
